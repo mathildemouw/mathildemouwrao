@@ -8,6 +8,7 @@ a {
 
 a:link {
   color: black;
+  font-weight: bold;
 }
 
 a:visited {
@@ -39,7 +40,7 @@ a:active {
 
 .nav-item{
   /* all these appear to do nothing */
-  height: 50px;
+  height: 30px;
   width: 90%;
   padding: 5px;
   margin: 5px;
@@ -93,4 +94,12 @@ a:active {
 
 .portfolio-item__image {
   max-width: 550px;
+}
+
+.portfolio-item__description {
+  max-width: 550px;
+}
+
+.portfolio-item__link {
+  margin-top: 10px;
 }

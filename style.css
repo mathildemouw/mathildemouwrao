@@ -1,64 +1,56 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* unvisited link */
+a {
+  text-decoration: none;
+}
+
 a:link {
   color: black;
 }
 
-/* visited link */
 a:visited {
   color: black;
 }
 
-/* mouse over link */
 a:hover {
   color: #3b2921;
 }
 
-/* selected link */
 a:active {
   color: darkblue;
 }
 
 .top-title {
-    font-size: x-large;
-    padding: 10px;
-    margin: 10px;
-    background-color: #e8dbd5;
+  font-size: xx-large;
+  padding: 10px 100px 10px 100px;
+  margin: 0 0 10px 0;
+  background-color: lightgrey;
 }
+
+.container {
+  display: flex;
+}
+
 /* ========================================== */
 /* Nav */
 /* ========================================== */
 
-.container {
-    display: flex;
-}
 .nav-item{
-    /* all these appear to do nothing */
-    background-color: #e8dbd5;
-    height: 50px;
-    width: 90%;
-    padding: 5px;
-    margin: 5px;
+  /* all these appear to do nothing */
+  height: 50px;
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
 }
 .nav {
     background-color: lightgrey;
 }
 
 .nav-container {
-    width: 30%;
-    margin: 50px;
-}
-
-.bio {
-    background-color: #e8dbd5;
-    width: 50%;
-}
-
-.portfolio-section {
-  display: none;
+  width: 30%;
+  /* margin: 0 50px 0 0; */
 }
 
 /* ========================================== */
@@ -69,20 +61,36 @@ a:active {
     display: block;
 }
 
+.portfolio-section {
+  width: 80%;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  display: none;
+}
+
+.bio {
+  display: block;
+}
+
 .portfolio-item {
-    background-color: brown;
+  background-color: lightgrey;
 }
 
 .portfolio-item__title {
-    font-size: large;
+  font-size: x-large;
 }
 
 .portfolio-item__subtitle {
-    font-size: medium;
+  font-size: large;
 }
 
 .portfolio-item__media {
-    background-color: skyblue;
-    margin: 5px;
-    padding: 5px;
+  /* width: 90%; */
+  max-width: 550px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.portfolio-item__image {
+  max-width: 550px;
 }

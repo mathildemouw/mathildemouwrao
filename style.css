@@ -7,12 +7,12 @@ a {
 }
 
 a:link {
-  color: black;
+  color: #808080;
   font-weight: bold;
 }
 
 a:visited {
-  color: black;
+  color: #808080;
 }
 
 a:hover {
@@ -50,7 +50,8 @@ a:active {
 }
 
 .nav-container {
-  width: 30%;
+  width: 15%;
+  min-height: 700px;
   /* margin: 0 50px 0 0; */
 }
 
@@ -86,20 +87,41 @@ a:active {
 }
 
 .portfolio-item__media {
-  /* width: 90%; */
-  max-width: 550px;
-  margin: 5px;
-  padding: 5px;
+  width: 100%;
+  padding: 0 15px 0 0;
 }
 
 .portfolio-item__image {
   max-width: 550px;
 }
 
+.portfolio-item__image-section {
+  padding: 0 15px 0 0;
+}
+
 .portfolio-item__description {
   max-width: 550px;
 }
 
+.portfolio-section__summary {
+  max-width: 1100px;
+  background-color: hotpink;
+  padding: 10px 0 10px 0;
+}
+
 .portfolio-item__link {
   margin-top: 10px;
+}
+
+.portfolio-item__container_next-to-eachother {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.top-space {
+  margin-top: 20px;
+}
+
+.portfolio-item__coding-project {
+  
 }

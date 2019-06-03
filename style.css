@@ -85,6 +85,7 @@ a:active {
 
 .portfolio-item__subtitle {
   font-size: large;
+  font-weight: bold;
 }
 
 .portfolio-item__media {
@@ -119,7 +120,7 @@ a:active {
 }
 
 .top-space {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .portfolio-section__coding-projects {

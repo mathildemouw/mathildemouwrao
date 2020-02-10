@@ -43,14 +43,14 @@ a:active {
   height: 30px;
   width: 90%;
   padding: 5px;
-  margin: 5px;
+  margin: 20px 5px;
 }
 .nav {
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .nav-container {
-  width: 15%;
+  width: 20%;
   min-height: 700px;
   /* margin: 0 50px 0 0; */
 }

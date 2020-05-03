@@ -23,14 +23,26 @@ a:active {
   color: darkblue;
 }
 
+.titlecontainer {
+  display: flex;
+}
+
 .top-title {
   font-size: xx-large;
   padding: 10px 100px 10px 100px;
   margin: 0 0 10px 0;
+  float: left;
+}
+
+.subtitle {
+  font-size: xx-large;
+  padding: 10px 100px 10px 100px;
+  margin: 0 0 10px 0;
+  float: right;
 }
 
 .container {
-  /* display: flex; */
+  display: inline-grid;
 }
 
 /* ========================================== */
@@ -46,12 +58,6 @@ a:active {
 }
 .nav {
     background-color: white;
-}
-
-.nav-container {
-  width: 20%;
-  min-height: 700px;
-  /* margin: 0 50px 0 0; */
 }
 
 /* ========================================== */
@@ -74,20 +80,19 @@ img{
 }
 
 .downloadable-row {
-  float: left;
   padding: 10px 50px 10px 50px;
   margin: 0 0 10px 0;
 }
 
 .downloadable-links {
-
+  /* float: left; */
 }
 
 .downloadable-example-image {
-  width: 400px;
-  float: left;
+  width: 700px;
+  float: right;
   padding: 10px 0;
-  margin: 0 0 10px 0;
+  margin: 30px 0 0 0;
 }
 
 /* ========================================== */
